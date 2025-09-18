@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content = "width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var a = parseInt(prompt("ENTER NO OF ROWS-"));
+        if(a<3){
+            alert("NUMBER OF ROW IS LESS THAN 3");
+            var b = confirm("DO YOU WANT TO PRINT THE PATTERN");
+            if(b){
+            var i=1;
+            while(i<=a){
+
+                var j=1;
+                while(j<=i){
+                    document.write("*");
+                    j=j+1;
+                }
+                document.write("<br>")
+                i=i+1;
+                }
+            }
+            else
+            {
+                document.write("THANK YOU")
+            }
+        }
+        else{
+            var i=1;
+            while(i<=a){
+                var j=1;
+                while(j<=i){
+                    document.write("*");
+                    j=j+1;
+                }
+                document.write("<br>")
+                i=i+1;
+                }
+        }
+       
+    </script>
+</body>
+</html>
